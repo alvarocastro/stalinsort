@@ -1,7 +1,7 @@
 const {comparatorAscending} = require('./utils');
 
-const stalinsort = function (arr, compare = comparatorAscending) {
-	if (!Array.isArray(arr)) {
+const stalinsort = function (array, compare = comparatorAscending) {
+	if (!Array.isArray(array)) {
 		throw new TypeError('Sortable list must be an array');
 	}
 
@@ -9,24 +9,24 @@ const stalinsort = function (arr, compare = comparatorAscending) {
 		throw new TypeError('Comparator must be a function');
 	}
 
-	const l = arr.length;
+	const l = array.length;
 
 	if (l < 2) {
-		return arr;
+		return array;
 	}
 
-	let pivot = arr[0];
-	const res = [pivot];
+	let pivot = array[0];
+	const result = [pivot];
 
 	for (let i = 1; i < l; i++) {
-		const r = compare(pivot, arr[i]);
+		const r = compare(pivot, array[i]);
 		if (r <= 0) {
-			pivot = arr[i];
-			res.push(pivot);
+			pivot = array[i];
+			result.push(pivot);
 		}
 	}
 
-	return res;
+	return result;
 };
 
 module.exports = stalinsort;
