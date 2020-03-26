@@ -1,6 +1,6 @@
 {
   "name": "@alvarocastro/stalinsort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An implementation of the stalinsort algorithm",
   "main": "index.js",
   "scripts": {
