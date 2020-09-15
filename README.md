@@ -1,5 +1,9 @@
 # Stalinsort
-[![NPM](https://img.shields.io/npm/v/@alvarocastro/stalinsort.svg)](https://www.npmjs.com/package/@alvarocastro/stalinsort) [![Build Status](https://travis-ci.com/alvarocastro/stalinsort.svg?branch=master)](https://travis-ci.com/alvarocastro/stalinsort) [![codebeat badge](https://codebeat.co/badges/ccecca2b-7dfc-4c13-b00c-8956ba36cfbd)](https://codebeat.co/projects/github-com-alvarocastro-stalinsort-master) [![Coverage Status](https://coveralls.io/repos/github/alvarocastro/stalinsort/badge.svg?branch=master)](https://coveralls.io/github/alvarocastro/stalinsort?branch=master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+[![NPM](https://img.shields.io/npm/v/@alvarocastro/stalinsort.svg)](https://www.npmjs.com/package/@alvarocastro/stalinsort)
+[![Build Status](https://travis-ci.com/alvarocastro/stalinsort.svg?branch=master)](https://travis-ci.com/alvarocastro/stalinsort)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2764d1a76ebf981fb4c7/maintainability)](https://codeclimate.com/github/alvarocastro/stalinsort/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/alvarocastro/stalinsort/badge.svg?branch=master)](https://coveralls.io/github/alvarocastro/stalinsort?branch=master)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 Yet another implementation of stalinsort in JavaScript. Inspired by [this post](https://www.reddit.com/r/ProgrammerHumor/comments/9s9kgn/nononsense_sorting_algorithm/) in [r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor).
 
@@ -7,6 +11,8 @@ Yet another implementation of stalinsort in JavaScript. Inspired by [this post](
 - [Usage](#usage)
 - [Performance](#performance)
 - [More examples](#more-examples)
+- [Contributing](#contributing)
+- [Support](#support)
 
 ## Install
 
@@ -87,3 +93,11 @@ sort(elements, comparator);
 // {name: 'T-800', firstAppearance: 'The Terminator'},
 // ]
 ```
+
+## Contributing
+
+Contributions are always welcome! Please run `npm test` before hand to ensure everything is ok.
+
+## Support
+
+If you use this package please consider starring it :)
