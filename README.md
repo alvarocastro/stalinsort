@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.com/alvarocastro/stalinsort.svg?branch=master)](https://travis-ci.com/alvarocastro/stalinsort)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2764d1a76ebf981fb4c7/maintainability)](https://codeclimate.com/github/alvarocastro/stalinsort/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/alvarocastro/stalinsort/badge.svg?branch=master)](https://coveralls.io/github/alvarocastro/stalinsort?branch=master)
+[![Bundle Size](https://badgen.net/bundlephobia/min/@alvarocastro/stalinsort)](https://bundlephobia.com/result?p=@alvarocastro/stalinsort)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 Yet another implementation of stalinsort in JavaScript. Inspired by [this post](https://www.reddit.com/r/ProgrammerHumor/comments/9s9kgn/nononsense_sorting_algorithm/) in [r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor).
