@@ -1,10 +1,12 @@
 # Stalinsort
-[![NPM](https://img.shields.io/npm/v/@alvarocastro/stalinsort.svg)](https://www.npmjs.com/package/@alvarocastro/stalinsort)
-[![Build Status](https://travis-ci.com/alvarocastro/stalinsort.svg?branch=master)](https://travis-ci.com/alvarocastro/stalinsort)
-[![Maintainability](https://api.codeclimate.com/v1/badges/2764d1a76ebf981fb4c7/maintainability)](https://codeclimate.com/github/alvarocastro/stalinsort/maintainability)
-[![Coverage Status](https://coveralls.io/repos/github/alvarocastro/stalinsort/badge.svg?branch=master)](https://coveralls.io/github/alvarocastro/stalinsort?branch=master)
-[![Bundle Size](https://badgen.net/bundlephobia/min/@alvarocastro/stalinsort)](https://bundlephobia.com/result?p=@alvarocastro/stalinsort)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+
+[![NPM](https://img.shields.io/npm/v/@alvarocastro/stalinsort)](https://www.npmjs.com/package/@alvarocastro/stalinsort)
+[![Build status](https://img.shields.io/github/workflow/status/alvarocastro/stalinsort/build)](https://github.com/alvarocastro/stalinsort/actions?query=workflow%3Abuild)
+[![Maintainability status](https://img.shields.io/codeclimate/maintainability/alvarocastro/stalinsort)](https://codeclimate.com/github/alvarocastro/stalinsort/maintainability)
+[![Coverage status](https://img.shields.io/coveralls/github/alvarocastro/stalinsort)](https://coveralls.io/github/alvarocastro/stalinsort?branch=master)
+[![Bundle size](https://img.shields.io/bundlephobia/min/@alvarocastro/stalinsort)](https://bundlephobia.com/result?p=@alvarocastro/stalinsort)
+[![Code style: XO](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+[![Release: Semantic](https://img.shields.io/badge/%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Yet another implementation of stalinsort in JavaScript. Inspired by [this post](https://www.reddit.com/r/ProgrammerHumor/comments/9s9kgn/nononsense_sorting_algorithm/) in [r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor).
 
@@ -97,7 +99,7 @@ sort(elements, comparator);
 
 ## Contributing
 
-Contributions are always welcome! Please run `npm test` before hand to ensure everything is ok.
+Contributions are always welcome! Please run `npm test` beforehand to ensure everything is ok.
 
 ## Support
 
